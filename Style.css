@@ -1,0 +1,330 @@
+#HEADER{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:60px;
+    border-bottom: 1px solid;
+}
+#Link{
+    display: flex;
+    height: 60px;
+    width: 60%;
+}
+#Link img{
+    max-width: 100px;
+}
+.lin{
+    display: flex;
+    height:60px ;
+    width: 40%;
+    align-items: center; 
+    gap: 9px;
+  }
+.lin a{
+      text-decoration: none;
+      font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+       font-size: small;
+       font-weight: bold;
+   }
+   .lin p{
+      display: flex;
+      justify-content: space-around;
+   }
+  a>sup{
+      color: red;
+  }
+  .lin p a{
+      color: black;
+  }
+ 
+#SearchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px ;
+    width:40% ;
+}
+#SearchBar input{
+    width: 100%;
+    height: 100%;
+}
+#Profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 20%;
+}
+.mainBody{
+ width: 100%;
+ height: 100%;
+}
+.cupounCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+.cupounCodeClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+#mainHeader{
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3e4152;
+    font-size: 28px;
+}
+.fristSection
+{
+    display: flex;
+    gap: 3px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid; */
+}
+.fristSection div {
+   width: 16%;
+   height: 300px;
+}
+.fristSection div img{ 
+   width: 100%;
+   height: 100%;
+}
+#mainHeader2{
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3e4152;
+    font-size: 28px;
+}
+#mainHeader3{
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3e4152;
+    font-size: 28px;
+}
+.cards
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.footerClass{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+.ftrDiv1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   justify-content: space-around;
+   /* align-items: center; */
+ }
+.footerLinks1
+{
+width:20%;
+}
+.footerLinks1 p
+{
+font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.verticalLinks
+{
+    display: flex;
+    flex-direction: column;
+}
+.verticalLinks a
+{
+    text-decoration: none;
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+.footerLinks2
+{
+width:15%;
+}
+.footerLinks2 p
+{
+font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.footerLinks3
+{
+display: flex;
+flex-direction: column;
+width:35%;
+}
+.footerLinks3 p
+{
+font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.socialLinks{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.socialLinks div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.socialLinks div img{
+    width: 90%;
+    height: 80px;
+}
+.footerLinks4
+{
+font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+display: flex;
+flex-direction: column;
+width:30%;
+}
+.footerLinks4 div{
+display: flex;
+}
+.footerLinks4 div img{
+width: 30%;
+height: min-content;
+}
+.ftrDiv2{
+    width: 100%;
+    height: 100%;
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+ }
+ .ftrDiv2 a{
+    text-decoration: none;
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+ }
+ .RIGHTRESERVED{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+ }
+ .RIGHTRESERVED p strong a{
+    text-decoration: none;
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+ }
+.rightsClass{
+    text-decoration: none;
+}
+.footerHr{
+    width: 100%;
+    height: 1px;
+    background-color: #3e4152;
+}
+.ftrDiv3{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+}
+.ftrDiv3 div{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.ftrDiv3Section p{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: rgb(76, 78, 81);
+    text-decoration: none;
+
+}
+.ftrDiv3Section p a{ 
+    text-decoration: none;
+    color: rgb(76, 78, 81);
+}
+.headingFooter{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.ftrDiv4Para{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: rgb(76, 78, 81);
+}
+.ftrDiv5 ol{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: rgb(76, 78, 81);
+}
+.ftrDiv5Para{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: rgb(76, 78, 81);
+}
+.headingFooter ul{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: rgb(76, 78, 81);
+}
+.ftrDiv5list ol li {
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(76, 78, 81);
+}
+.olList{
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: small;
+    color: rgb(76, 78, 81);
+}
+.mainBody2{
+    width: 100%;
+    height: 100%;
+}
+.mainBody2 section {
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.mainBody2 section div{
+    width: 16%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.mainBody2 section div img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.lastCard{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lastCard div{
+    width: 16%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.lastCard div img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
